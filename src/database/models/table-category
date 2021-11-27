@@ -1,0 +1,5 @@
+CREATE TABLE `crud`.`category` (
+  `idcategory` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
+  `image` VARCHAR(255) NOT NULL,
+  PRIMARY KEY (`idcategory`));

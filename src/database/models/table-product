@@ -1,0 +1,7 @@
+CREATE TABLE `crud`.`product` (
+  `idproduct` INT NOT NULL AUTO_INCREMENT,
+  `idcategory` VARCHAR(45) NOT NULL,
+  `name_product` VARCHAR(45) NOT NULL,
+  `price` DOUBLE NOT NULL,
+  `image_product` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`idproduct`));
